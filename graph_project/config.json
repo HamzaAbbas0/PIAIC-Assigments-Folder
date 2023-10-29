@@ -1,0 +1,24 @@
+{
+    "white_area_color_scale" : "BGR",
+    "white_area_color_lb" : [134, 125, 134],
+    "white_area_color_ub" : [255, 255, 255],
+    
+    "blue_area_color_scale" : "Lab",
+    "blue_flame_color_lb" : [110, 0, 0],
+    "blue_flame_color_ub" : [255, 255, 95],
+
+    "roi_mask_p1" : [173, 10],
+    "roi_mask_p2" : [213, 10],
+    "roi_mask_p3" : [253, 150],
+    "roi_mask_p4" : [131, 150],
+    "roi_mask_image_name" : "roiMaskImage.jpg",
+
+    "y_coordinate_points_for_analysis" : [30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78, 81, 84, 
+                                          87, 90, 93, 96, 99, 102, 105, 108, 111, 114, 117, 120, 123, 126, 129, 132, 135],
+
+    "num_of_frames_to_skip_from_beginning" : 0,
+    "time_interval_for_observation" : 1,
+
+    "1_pixel_in_mm_x_axis" : 0.24324,
+    "1_pixel_in_mm_y_axis" : 0.49618
+}
